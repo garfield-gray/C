@@ -1,3 +1,6 @@
+/*this project Calculates the power with less calculation*/
+
+
 #include <iostream>
 #include <iomanip>
 
