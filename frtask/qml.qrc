@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>Main.qml</file>
+        <file>LocationManager.qml</file>
+	<file>newLocationManager.qml</file>
+    </qresource>
+</RCC>
+
