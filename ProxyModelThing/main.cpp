@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
     MyTableModel myModel;
 
     MyProxyModel myProxyModel;
+
     myProxyModel.setSourceModel(&myModel);
 
 //    engine.rootContext()->setContextProperty("mymodel", &myModel);

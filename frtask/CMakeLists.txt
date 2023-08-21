@@ -25,16 +25,7 @@ qt_add_qml_module(appfrtask
 
 
 qt_add_resources(appfrtask qml
-    FILES
-        Back.jpg
-        Eiffel.jpg
-        image.jpg
-        rihanna.jpg
-        Rihanna.jpg
-        Ariana.jpg
-        white.png
-        edit.png
-        delete.png
+    FILES icons/
 )
 
 

@@ -8,7 +8,8 @@
 			"_qt_internal_target_enable_qmllint",
 			"qt6_target_qml_sources",
 			"qt6_add_qml_module",
-			"qt_add_qml_module"
+			"qt_add_qml_module",
+			"add_dependencies"
 		],
 		"files" : 
 		[
@@ -23,7 +24,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 19,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -47,7 +48,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 822,
+				"line" : 882,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 885,
 				"parent" : 4
 			}
 		]
@@ -55,51 +62,21 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df"
+			"backtrace" : 6,
+			"id" : "appProxyModelThing_qmllint_json::@6890427a1f51a3e7e1df"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "QmlLinter"
 	},
-	"id" : "appProxyModelThing_qmllint::@6890427a1f51a3e7e1df",
-	"name" : "appProxyModelThing_qmllint",
+	"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+	"name" : "all_qmllint_json",
 	"paths" : 
 	{
 		"build" : ".",
 		"source" : "."
 	},
-	"sourceGroups" : 
-	[
-		{
-			"name" : "",
-			"sourceIndexes" : 
-			[
-				0
-			]
-		},
-		{
-			"name" : "CMake Rules",
-			"sourceIndexes" : 
-			[
-				1
-			]
-		}
-	],
-	"sources" : 
-	[
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "/home/client113/Projects/Cpp/build-ProxyModelThing-Desktop_Qt_6_5_1_GCC_64bit-Debug/CMakeFiles/appProxyModelThing_qmllint",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "/home/client113/Projects/Cpp/build-ProxyModelThing-Desktop_Qt_6_5_1_GCC_64bit-Debug/CMakeFiles/appProxyModelThing_qmllint.rule",
-			"sourceGroupIndex" : 1
-		}
-	],
+	"sources" : [],
 	"type" : "UTILITY"
 }

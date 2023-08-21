@@ -72,7 +72,7 @@ ListView{
                     ToolButton {
                         Layout.fillHeight: true
                         Layout.fillWidth: true
-                        icon.source: "qrc:/edit.png"
+                        icon.source: "qrc:/icons/edit.png"
                         icon.width: 300
                         icon.height: 300
                         onClicked: {
@@ -92,7 +92,7 @@ ListView{
                     ToolButton{
                         Layout.fillHeight: true
                         Layout.fillWidth: true
-                        icon.source: "qrc:/delete.png"
+                        icon.source: "qrc:/icons/delete.png"
                         icon.width: parent.width
                         icon.height: parent.height
                         onClicked: {

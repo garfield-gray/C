@@ -24,7 +24,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 19,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -48,13 +48,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 891,
+				"line" : 874,
 				"parent" : 4
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 894,
+				"line" : 876,
 				"parent" : 4
 			}
 		]
@@ -63,15 +63,11 @@
 	[
 		{
 			"backtrace" : 6,
-			"id" : "appProxyModelThing_qmllint_module::@6890427a1f51a3e7e1df"
+			"id" : "appProxyModelThing_qmllint::@6890427a1f51a3e7e1df"
 		}
 	],
-	"folder" : 
-	{
-		"name" : "QmlLinter"
-	},
-	"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
-	"name" : "all_qmllint_module",
+	"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+	"name" : "all_qmllint",
 	"paths" : 
 	{
 		"build" : ".",

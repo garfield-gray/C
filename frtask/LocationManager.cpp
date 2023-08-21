@@ -3,14 +3,14 @@
 LocationManager::LocationManager(QObject *parent) : QAbstractListModel(parent)
 {
 
-    addLocation("qrc:/Eiffel.jpg", QColor(Qt::black), "Eiffel", "Franrce, Paris", QVector2D(1.854f, 2.953f));
-    addLocation("qrc:/Rihanna.jpg", QColor(Qt::green), "Rihanna", "California, St Davis", QVector2D(1.084f, 2.0521f));
-    addLocation("qrc:/Ariana.jpg", QColor(Qt::gray), "Ariana", "Frapo, Paris", QVector2D(1.0265f, 2.8450f));
-    addLocation("qrc:/rihanna.jpg", QColor(Qt::red), "rihanna", "Fropoance, Paris", QVector2D(1.0545f, 2.694150f));
-    addLocation("qrc:/Eiffel.jpg", QColor(Qt::blue), "Eiffekkl", "Fraopnce, Paris", QVector2D(1.0f, 2.0f));
-    addLocation("qrc:/Eiffel.jpg", QColor(Qt::red), "Eiffekkl", "Fraonce, Paris", QVector2D(1.099f, 2.0f));
-    addLocation("qrc:/Eiffel.jpg", QColor(Qt::red), "Eiffekkl", "Fraonce, Paris", QVector2D(3.0f, 2.0f));
-    addLocation("qrc:/Eiffel.jpg", QColor(Qt::red), "Eiffekkl", "Fraonce, Paris", QVector2D(1.90f, 2.0f));
+    addLocation("qrc:/icons/Eiffel.jpg", QColor(Qt::black), "Eiffel", "Franrce, Paris", QVector2D(1.854f, 2.953f));
+    addLocation("qrc:/icons/Rihanna.jpg", QColor(Qt::green), "Rihanna", "California, St Davis", QVector2D(1.084f, 2.0521f));
+    addLocation("qrc:/icons/Ariana.jpg", QColor(Qt::gray), "Ariana", "Frapo, Paris", QVector2D(1.0265f, 2.8450f));
+    addLocation("qrc:/icons/rihanna.jpg", QColor(Qt::red), "rihanna", "Fropoance, Paris", QVector2D(1.0545f, 2.694150f));
+    addLocation("qrc:/icons/Eiffel.jpg", QColor(Qt::blue), "Eiffekkl", "Fraopnce, Paris", QVector2D(1.0f, 2.0f));
+    addLocation("qrc:/icons/Eiffel.jpg", QColor(Qt::red), "Eiffekkl", "Fraonce, Paris", QVector2D(1.099f, 2.0f));
+    addLocation("qrc:/icons/Eiffel.jpg", QColor(Qt::red), "Eiffekkl", "Fraonce, Paris", QVector2D(3.0f, 2.0f));
+    addLocation("qrc:/icons/Eiffel.jpg", QColor(Qt::red), "Eiffekkl", "Fraonce, Paris", QVector2D(1.90f, 2.0f));
 
 
 }

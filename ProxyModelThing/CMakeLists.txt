@@ -14,6 +14,7 @@ qt_add_executable(appProxyModelThing
     myproxymodel.h
     mytablemodel.h
     mytablemodel.cpp
+    qml.qrc
 )
 
 qt_add_qml_module(appProxyModelThing
