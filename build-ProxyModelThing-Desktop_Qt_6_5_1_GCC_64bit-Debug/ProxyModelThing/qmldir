@@ -1,0 +1,12 @@
+module ProxyModelThing
+typeinfo appProxyModelThing.qmltypes
+prefer :/qt/qml/ProxyModelThing/
+Main 1.0 Main.qml
+AyBtn 1.0 AyBtn.qml
+AyLineEdit 1.0 AyLineEdit.qml
+AyText 1.0 AyText.qml
+CustomBorder 1.0 CustomBorder.qml
+CustomRadius 1.0 CustomRadius.qml
+ImageRadius 1.0 ImageRadius.qml
+MyTableView 1.0 MyTableView.qml
+

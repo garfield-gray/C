@@ -1,0 +1,128 @@
+[
+    {
+        "classes": [
+            {
+                "className": "MyProxyModel",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "myFilterEnabled",
+                        "notify": "myFilterEnabledChanged",
+                        "read": "myFilterEnabled",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setMyFilterEnabled"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 1,
+                        "name": "searchedWord",
+                        "notify": "searchedWordChanged",
+                        "read": "searchedWord",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setSearchedWord"
+                    }
+                ],
+                "qualifiedClassName": "MyProxyModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "myFilterEnabledChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "searchedWordChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSortFilterProxyModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "myproxymodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "MyTableModel",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "section",
+                                "type": "int"
+                            },
+                            {
+                                "name": "orientation",
+                                "type": "Qt::Orientation"
+                            },
+                            {
+                                "name": "role",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "headerData",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "section",
+                                "type": "int"
+                            },
+                            {
+                                "name": "orientation",
+                                "type": "Qt::Orientation"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "headerData",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rowIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "myRemoveRow",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "MyTableModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractTableModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "mytablemodel.h",
+        "outputRevision": 68
+    }
+]

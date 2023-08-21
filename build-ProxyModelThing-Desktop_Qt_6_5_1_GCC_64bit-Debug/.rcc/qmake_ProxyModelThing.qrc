@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/ProxyModelThing">
+    <file alias="qmldir">/home/client113/Projects/Cpp/build-ProxyModelThing-Desktop_Qt_6_5_1_GCC_64bit-Debug/ProxyModelThing/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="/qt/qml/ProxyModelThing/">
+    <file alias="Main.qml">/home/client113/Projects/Cpp/ProxyModelThing/Main.qml</file>
+    <file alias="AyBtn.qml">/home/client113/Projects/Cpp/ProxyModelThing/AyBtn.qml</file>
+    <file alias="AyLineEdit.qml">/home/client113/Projects/Cpp/ProxyModelThing/AyLineEdit.qml</file>
+    <file alias="AyText.qml">/home/client113/Projects/Cpp/ProxyModelThing/AyText.qml</file>
+    <file alias="CustomBorder.qml">/home/client113/Projects/Cpp/ProxyModelThing/CustomBorder.qml</file>
+    <file alias="CustomRadius.qml">/home/client113/Projects/Cpp/ProxyModelThing/CustomRadius.qml</file>
+    <file alias="ImageRadius.qml">/home/client113/Projects/Cpp/ProxyModelThing/ImageRadius.qml</file>
+    <file alias="MyTableView.qml">/home/client113/Projects/Cpp/ProxyModelThing/MyTableView.qml</file>
+  </qresource>
+</RCC>
+

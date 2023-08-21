@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8bc75f3109e0cefce0ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ProxyModelThing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-2a754b6c94c307938ab4.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-1f4a53b582f82d06365e.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-8eb3bdf2327872f4afc0.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-0fd1e9a98f584f560a93.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appProxyModelThing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appProxyModelThing-Debug-d4d42f4839b1b4cf041b.json",
+					"name" : "appProxyModelThing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appProxyModelThing_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appProxyModelThing_autogen-Debug-fb2f6c85e3f25b2c5bdd.json",
+					"name" : "appProxyModelThing_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appProxyModelThing_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appProxyModelThing_autogen_timestamp_deps-Debug-f1f2aab793d4e7875b25.json",
+					"name" : "appProxyModelThing_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appProxyModelThing_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appProxyModelThing_qmlimportscan-Debug-c39d4d504c66798a2df8.json",
+					"name" : "appProxyModelThing_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appProxyModelThing_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appProxyModelThing_qmllint-Debug-32c3f513076435c86aa7.json",
+					"name" : "appProxyModelThing_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appProxyModelThing_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appProxyModelThing_qmllint_json-Debug-80d054edbab4483ffc82.json",
+					"name" : "appProxyModelThing_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appProxyModelThing_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appProxyModelThing_qmllint_module-Debug-2126fbf51f86bba18bae.json",
+					"name" : "appProxyModelThing_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appProxyModelThing_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appProxyModelThing_qmltyperegistration-Debug-181320274f151f7ba29f.json",
+					"name" : "appProxyModelThing_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appProxyModelThing_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appProxyModelThing_tooling-Debug-df2c1c1136bbe3894f19.json",
+					"name" : "appProxyModelThing_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/client113/Projects/Cpp/build-ProxyModelThing-Desktop_Qt_6_5_1_GCC_64bit-Debug",
+		"source" : "/home/client113/Projects/Cpp/ProxyModelThing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

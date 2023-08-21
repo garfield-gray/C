@@ -1,0 +1,65 @@
+{
+    "classes": [
+        {
+            "className": "MyTableModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "section",
+                            "type": "int"
+                        },
+                        {
+                            "name": "orientation",
+                            "type": "Qt::Orientation"
+                        },
+                        {
+                            "name": "role",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "headerData",
+                    "returnType": "QVariant"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "section",
+                            "type": "int"
+                        },
+                        {
+                            "name": "orientation",
+                            "type": "Qt::Orientation"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "headerData",
+                    "returnType": "QVariant"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "rowIndex",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "myRemoveRow",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "MyTableModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractTableModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "mytablemodel.h",
+    "outputRevision": 68
+}

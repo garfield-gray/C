@@ -1,0 +1,14 @@
+-rootPath
+/home/client113/Projects/Cpp/ProxyModelThing
+-cmake-output
+-output-file
+/home/client113/Projects/Cpp/build-ProxyModelThing-Desktop_Qt_6_5_1_GCC_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appProxyModelThing.cmake
+-importPath
+/home/client113/Projects/Cpp/build-ProxyModelThing-Desktop_Qt_6_5_1_GCC_64bit-Debug/ProxyModelThing
+-importPath
+/home/client113/Projects/Cpp/build-ProxyModelThing-Desktop_Qt_6_5_1_GCC_64bit-Debug
+-importPath
+/opt/Qt/6.5.1/gcc_64/./qml
+-qrcFiles
+/home/client113/Projects/Cpp/build-ProxyModelThing-Desktop_Qt_6_5_1_GCC_64bit-Debug/.rcc/qmake_ProxyModelThing.qrc
+/home/client113/Projects/Cpp/build-ProxyModelThing-Desktop_Qt_6_5_1_GCC_64bit-Debug/.rcc/appProxyModelThing_raw_qml_0.qrc
