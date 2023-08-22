@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/frtask/">
+    <file alias="Main.qml">/home/client113/Projects/Cpp/frtask/Main.qml</file>
+    <file alias="LocationManager.qml">/home/client113/Projects/Cpp/frtask/LocationManager.qml</file>
+  </qresource>
+</RCC>
+

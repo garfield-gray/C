@@ -1,0 +1,2 @@
+/home/client113/Projects/Cpp/build-frtask-Desktop_Qt_6_5_1_GCC_64bit-Debug/appfrtask_autogen/include/../EWIEGA46WW/moc_LocationManager.cpp.json
+/home/client113/Projects/Cpp/build-frtask-Desktop_Qt_6_5_1_GCC_64bit-Debug/appfrtask_autogen/include/../EWIEGA46WW/moc_LocationManagerProxyModel.cpp.json

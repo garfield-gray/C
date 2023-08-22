@@ -1,0 +1,15 @@
+-rootPath
+/home/client113/Projects/Cpp/frtask
+-cmake-output
+-output-file
+/home/client113/Projects/Cpp/build-frtask-Desktop_Qt_6_5_1_GCC_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appfrtask.cmake
+-importPath
+/home/client113/Projects/Cpp/build-frtask-Desktop_Qt_6_5_1_GCC_64bit-Debug/frtask
+-importPath
+/home/client113/Projects/Cpp/build-frtask-Desktop_Qt_6_5_1_GCC_64bit-Debug
+-importPath
+/opt/Qt/6.5.1/gcc_64/./qml
+-qrcFiles
+/home/client113/Projects/Cpp/build-frtask-Desktop_Qt_6_5_1_GCC_64bit-Debug/.rcc/qmake_frtask.qrc
+/home/client113/Projects/Cpp/build-frtask-Desktop_Qt_6_5_1_GCC_64bit-Debug/.rcc/appfrtask_raw_qml_0.qrc
+/home/client113/Projects/Cpp/build-frtask-Desktop_Qt_6_5_1_GCC_64bit-Debug/.rcc/qml.qrc

@@ -1,0 +1,76 @@
+{
+    "classes": [
+        {
+            "className": "LocationManager",
+            "object": true,
+            "qualifiedClassName": "LocationManager",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "picture",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "colour",
+                            "type": "QColor"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "loc",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "mercator",
+                            "type": "QVector2D"
+                        }
+                    ],
+                    "name": "addLocation",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "imageName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "typeName",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "editClicked",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "imageName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "typeName",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "deleteClicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "LocationManager.h",
+    "outputRevision": 68
+}

@@ -12,6 +12,8 @@ qt_add_executable(appfrtask
     main.cpp
     LocationManager.cpp
     LocationManager.h
+    LocationManagerProxyModel.h
+    LocationManagerProxyModel.cpp
     qml.qrc
 
 )

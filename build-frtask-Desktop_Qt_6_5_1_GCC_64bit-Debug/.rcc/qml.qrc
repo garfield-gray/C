@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="icons">/home/client113/Projects/Cpp/frtask/icons</file>
+  </qresource>
+</RCC>
+
