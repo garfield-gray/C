@@ -1,2 +1,2 @@
 # Cpp
-Hey
+basic Cpp codes mostely for learning purposes
