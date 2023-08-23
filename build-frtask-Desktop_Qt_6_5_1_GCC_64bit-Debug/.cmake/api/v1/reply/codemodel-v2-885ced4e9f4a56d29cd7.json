@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-28aea8252d35c5c01f78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "frtask",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-83c428d10755cd6f14df.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-5bba30638a0b3f8068ae.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-06198d78c3c062711c4d.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-258ed668aea2eb328e85.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appfrtask::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appfrtask-Debug-a0b50f177e89865180f5.json",
+					"name" : "appfrtask",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appfrtask_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appfrtask_autogen-Debug-bab9271b1e0b48646ed3.json",
+					"name" : "appfrtask_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appfrtask_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appfrtask_autogen_timestamp_deps-Debug-02ae39f803cd3b919269.json",
+					"name" : "appfrtask_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appfrtask_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appfrtask_qmlimportscan-Debug-4b277c724d45894f8e02.json",
+					"name" : "appfrtask_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appfrtask_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appfrtask_qmllint-Debug-d5dae2d5fd3b1b55aa57.json",
+					"name" : "appfrtask_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appfrtask_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appfrtask_qmllint_json-Debug-cdf5162207fd93c205c4.json",
+					"name" : "appfrtask_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appfrtask_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appfrtask_qmllint_module-Debug-4b4d002c8f92e0c44434.json",
+					"name" : "appfrtask_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appfrtask_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appfrtask_qmltyperegistration-Debug-03a218beaa2de940b39c.json",
+					"name" : "appfrtask_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appfrtask_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appfrtask_tooling-Debug-02c084368d7f21c463c8.json",
+					"name" : "appfrtask_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/client113/Projects/Cpp/build-frtask-Desktop_Qt_6_5_1_GCC_64bit-Debug",
+		"source" : "/home/client113/Projects/Cpp/frtask"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

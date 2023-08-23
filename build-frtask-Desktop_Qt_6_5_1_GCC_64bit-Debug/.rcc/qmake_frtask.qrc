@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/frtask">
+    <file alias="qmldir">/home/client113/Projects/Cpp/build-frtask-Desktop_Qt_6_5_1_GCC_64bit-Debug/frtask/qmldir</file>
+  </qresource>
+</RCC>
+

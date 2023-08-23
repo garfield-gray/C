@@ -1,0 +1,6 @@
+module frtask
+typeinfo appfrtask.qmltypes
+prefer :/frtask/
+Main 1.0 Main.qml
+LocationManager 1.0 LocationManager.qml
+
