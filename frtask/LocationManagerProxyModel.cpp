@@ -29,6 +29,11 @@ void LocationManagerProxyModel::deleteLocation(int index)
         QModelIndex sourceIndex = mapToSource(this->index(index, 0));
         QString imageName = sourceIndex.data(LocationManager::NameRole).toString();
         QString typeName = sourceIndex.data(LocationManager::LocationRole).toString();
-        m_sourceModel->deleteClicked(imageName, typeName);
+//        m_sourceModel->deleteClicked(imageName, typeName);
     }
+}
+
+bool LocationManagerProxyModel::filterAcceptsRow(int source_row, const QModelIndex &source_parent) const
+{
+
 }

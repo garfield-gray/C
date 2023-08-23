@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
 
     LocationManager locationmanager;
+
     engine.rootContext()->setContextProperty("LocationManagerModel", &locationmanager);
 
 

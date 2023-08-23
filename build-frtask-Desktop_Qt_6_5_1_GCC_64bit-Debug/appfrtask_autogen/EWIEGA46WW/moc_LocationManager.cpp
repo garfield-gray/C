@@ -49,11 +49,12 @@ static constexpr auto qt_meta_stringdata_CLASSLocationManagerENDCLASS = QtMocHel
     "editClicked",
     "imageName",
     "typeName",
-    "deleteClicked"
+    "deleteClicked",
+    "index"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSLocationManagerENDCLASS_t {
-    uint offsetsAndSizes[24];
+    uint offsetsAndSizes[26];
     char stringdata0[16];
     char stringdata1[12];
     char stringdata2[1];
@@ -66,6 +67,7 @@ struct qt_meta_stringdata_CLASSLocationManagerENDCLASS_t {
     char stringdata9[10];
     char stringdata10[9];
     char stringdata11[14];
+    char stringdata12[6];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSLocationManagerENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -82,7 +84,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSLocationManagerENDCLASS_t qt_me
         QT_MOC_LITERAL(62, 11),  // "editClicked"
         QT_MOC_LITERAL(74, 9),  // "imageName"
         QT_MOC_LITERAL(84, 8),  // "typeName"
-        QT_MOC_LITERAL(93, 13)   // "deleteClicked"
+        QT_MOC_LITERAL(93, 13),  // "deleteClicked"
+        QT_MOC_LITERAL(107, 5)   // "index"
     },
     "LocationManager",
     "addLocation",
@@ -95,7 +98,8 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSLocationManagerENDCLASS_t qt_me
     "editClicked",
     "imageName",
     "typeName",
-    "deleteClicked"
+    "deleteClicked",
+    "index"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -117,12 +121,16 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSLocationManagerENDCLASS[] = {
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
        1,    5,   32,    2, 0x0a,    1 /* Public */,
        8,    2,   43,    2, 0x0a,    7 /* Public */,
-      11,    2,   48,    2, 0x0a,   10 /* Public */,
+
+ // methods: name, argc, parameters, tag, flags, initial metatype offsets
+      11,    1,   48,    2, 0x02,   10 /* Public */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::QColor, QMetaType::QString, QMetaType::QString, QMetaType::QVector2D,    3,    4,    5,    6,    7,
     QMetaType::Void, QMetaType::QString, QMetaType::QString,    9,   10,
-    QMetaType::Void, QMetaType::QString, QMetaType::QString,    9,   10,
+
+ // methods: parameters
+    QMetaType::Void, QMetaType::Int,   12,
 
        0        // eod
 };
@@ -149,8 +157,7 @@ Q_CONSTINIT const QMetaObject LocationManager::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
         // method 'deleteClicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
+        QtPrivate::TypeAndForceComplete<int, std::false_type>
     >,
     nullptr
 } };
@@ -163,7 +170,7 @@ void LocationManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         switch (_id) {
         case 0: _t->addLocation((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QColor>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[4])),(*reinterpret_cast< std::add_pointer_t<QVector2D>>(_a[5]))); break;
         case 1: _t->editClicked((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
-        case 2: _t->deleteClicked((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2]))); break;
+        case 2: _t->deleteClicked((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }
     }

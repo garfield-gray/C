@@ -18,6 +18,10 @@ public slots:
 
 private:
     LocationManager *m_sourceModel;
+
+    // QSortFilterProxyModel interface
+protected:
+    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const;
 };
 
 #endif // LOCATIONMANAGERPROXYMODEL_H

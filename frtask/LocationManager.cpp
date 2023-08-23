@@ -73,6 +73,14 @@ void LocationManager::addLocation(const QString &picture, const QColor &colour, 
 void LocationManager::editClicked(const QString& imageName, const QString& typeName){
     qDebug() << "Image clicked:" << imageName << typeName;
 }
-void LocationManager::deleteClicked(const QString& imageName, const QString& typeName){
-    qDebug() << "Image clicked:" << imageName << typeName;
+
+void LocationManager::deleteClicked(int index)
+{
+    beginRemoveRows(QModelIndex(), index, index);
+    m_locations.removeAt(index);
+    endRemoveRows();
 }
+//void LocationManager::deleteClicked(const QString& imageName, const QString& typeName){
+////    qDebug() << "Image clicked:" << imageName << typeName;
+//    beginRemoveRows(QModelIndex(), )
+//}

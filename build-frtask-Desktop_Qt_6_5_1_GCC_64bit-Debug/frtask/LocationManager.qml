@@ -95,10 +95,7 @@ ListView{
                         icon.source: "qrc:/icons/delete.png"
                         icon.width: parent.width
                         icon.height: parent.height
-                        onClicked: {
-                            LocationManagerModel.deleteClicked(model.name, "delete")
-
-                        }
+                        onClicked: LocationManagerModel.deleteClicked(model.index)
                     }
                 }
             }

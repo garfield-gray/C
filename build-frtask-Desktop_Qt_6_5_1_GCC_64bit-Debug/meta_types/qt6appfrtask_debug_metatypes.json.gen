@@ -3,6 +3,19 @@
         "classes": [
             {
                 "className": "LocationManager",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "deleteClicked",
+                        "returnType": "void"
+                    }
+                ],
                 "object": true,
                 "qualifiedClassName": "LocationManager",
                 "slots": [
@@ -46,21 +59,6 @@
                             }
                         ],
                         "name": "editClicked",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "arguments": [
-                            {
-                                "name": "imageName",
-                                "type": "QString"
-                            },
-                            {
-                                "name": "typeName",
-                                "type": "QString"
-                            }
-                        ],
-                        "name": "deleteClicked",
                         "returnType": "void"
                     }
                 ],

@@ -29,10 +29,11 @@ public:
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
     QHash<int, QByteArray> roleNames() const override;
 
+    Q_INVOKABLE void deleteClicked(int index);
+
 public slots:
     void addLocation(const QString &picture, const QColor &colour, const QString &name, const QString &loc,const QVector2D &mercator);
     void editClicked(const QString& imageName, const QString& typeName);
-    void deleteClicked(const QString& imageName, const QString& typeName);
 
 private:
     struct Location {
