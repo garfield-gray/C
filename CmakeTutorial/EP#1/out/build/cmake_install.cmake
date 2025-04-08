@@ -1,4 +1,4 @@
-# Install script for directory: /home/garfield/Cpp/CmakeTutorial
+# Install script for directory: /home/g/job/C/CmakeTutorial/EP#1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/garfield/Cpp/CmakeTutorial/out/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/g/job/C/CmakeTutorial/EP#1/out/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

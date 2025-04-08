@@ -1,7 +1,7 @@
-/home/garfield/Cpp/CmakeTutorial/EP#2/build/CMakeFiles/trim.dir
-/home/garfield/Cpp/CmakeTutorial/EP#2/build/CMakeFiles/edit_cache.dir
-/home/garfield/Cpp/CmakeTutorial/EP#2/build/CMakeFiles/rebuild_cache.dir
-/home/garfield/Cpp/CmakeTutorial/EP#2/build/CMakeFiles/list_install_components.dir
-/home/garfield/Cpp/CmakeTutorial/EP#2/build/CMakeFiles/install.dir
-/home/garfield/Cpp/CmakeTutorial/EP#2/build/CMakeFiles/install/local.dir
-/home/garfield/Cpp/CmakeTutorial/EP#2/build/CMakeFiles/install/strip.dir
+/home/g/job/C/CmakeTutorial/EP#2/build/CMakeFiles/trim.dir
+/home/g/job/C/CmakeTutorial/EP#2/build/CMakeFiles/edit_cache.dir
+/home/g/job/C/CmakeTutorial/EP#2/build/CMakeFiles/rebuild_cache.dir
+/home/g/job/C/CmakeTutorial/EP#2/build/CMakeFiles/list_install_components.dir
+/home/g/job/C/CmakeTutorial/EP#2/build/CMakeFiles/install.dir
+/home/g/job/C/CmakeTutorial/EP#2/build/CMakeFiles/install/local.dir
+/home/g/job/C/CmakeTutorial/EP#2/build/CMakeFiles/install/strip.dir
